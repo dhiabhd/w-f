@@ -46,7 +46,7 @@ export default function WeatherDetails() {
       />
       <div class="row">
         <div class="col-4 col-s-12">
-          <div style={{ position: 'absolute', bottom: 20 }}>
+          <div style={{ position: '', bottom: 20 }}>
             {data?.current && <MainCard current={current} />}
           </div>
         </div>
